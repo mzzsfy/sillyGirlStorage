@@ -11,11 +11,13 @@ web插件文件[点我](./webPlugin)
 
 ## docker
 
-#docker #傻妞
+docker版傻妞使用方法
+
+安装
 ```bash
 docker run -itd --name sillygirl -p 8080:8080 --restart always -v "$(pwd)"/sillyGirl:/etc/sillyGirl mzzsfy/sillygirl:latest
 ```
-交互:
+与傻妞控制台交互
 ```bash
 docker attach sillygirl
 ```
@@ -24,7 +26,10 @@ docker attach sillygirl
 
 https://hub.docker.com/r/mzzsfy/sillygirl
 
-node-onebot/oicq:
+
+配套docker:  
+
+node-onebot/oicq
 
 https://hub.docker.com/r/mzzsfy/node-onebot
 
